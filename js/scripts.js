@@ -76,14 +76,18 @@ jQuery(function() {
 		//Check if the meme is currently set to Bears theme
 		if ($('#meme_img').hasClass('bears')){
 			//If background is Bears theme, set to Packers theme
+			$('#meme_img').fadeOut();
 			$('#meme_img').removeClass('bears');
 			$('#meme_img').addClass('packers');
 			$('#meme_img').attr('src', 'images/packersmeme.png');
+			$('#meme_img').fadeIn();
 		} else {
 			//Otherwise, it is on Packers theme and needs to be changed to Bears
+			$('#meme_img').fadeOut();
 			$('#meme_img').removeClass('packers');
 			$('#meme_img').addClass('bears');
 			$('#meme_img').attr('src', 'images/bearsmeme.png');
+			$('#meme_img').fadeIn();
 		}
 
 	});
