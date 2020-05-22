@@ -1,0 +1,84 @@
+#my_body {
+  background-size: cover;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  margin: 20px;
+  color: white; }
+  #my_body.bears {
+    background-image: url("../images/bearsbackground.png"); }
+  #my_body.packers {
+    background-image: url("../images/packersbackground.png"); }
+  #my_body h1 {
+    padding-top: 2rem;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 1000; }
+  #my_body .text-box {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  #my_body h2 {
+    font-size: 6vw;
+    font-weight: 900;
+    display: block;
+    padding: .5em; }
+    #my_body h2.bears {
+      background-color: #0b162a;
+      color: #f65200; }
+    #my_body h2.packers {
+      background-color: #ffb700;
+      color: #24423C; }
+  #my_body h2:nth-child(2) {
+    position: absolute;
+    clip-path: inset(-1% -1% 50% -1%); }
+    #my_body h2:nth-child(2).bears {
+      color: white;
+      background-color: #f65200; }
+    #my_body h2:nth-child(2).packers {
+      color: white;
+      background-color: #24423C; }
+  #my_body #invite {
+    transform: translate(-50%, -50%);
+    font-size: 120px;
+    letter-spacing: 0.1em;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: white; }
+    #my_body #invite.bears {
+      text-shadow: 8px 8px #f65200, 20px 20px #0b162a; }
+    #my_body #invite.packers {
+      text-shadow: 8px 8px #ffb700, 20px 20px #24423C; }
+  #my_body h3, #my_body h4 {
+    text-align: center;
+    letter-spacing: 0.1em; }
+  #my_body .meme-container {
+    text-align: center;
+    padding-top: 3rem; }
+  #my_body .meme {
+    height: auto;
+    width: 50%;
+    padding: 5px; }
+    #my_body .meme.bears {
+      border: 8px solid #f65200;
+      background-color: #0b162a; }
+    #my_body .meme.packers {
+      border: 8px solid #ffb700;
+      background-color: #24423C; }
+  #my_body .header {
+    width: 100%;
+    height: 400px;
+    margin: 0 auto; }
+  #my_body .fan-select {
+    text-align: center;
+    padding-top: 1rem; }
+  #my_body .btn {
+    font-weight: bold;
+    height: 50px; }
+    #my_body .btn.bears {
+      background-color: #ffb700;
+      color: #24423C; }
+    #my_body .btn.packers {
+      background-color: #f65200;
+      color: white; }
+  #my_body .btn:hover {
+    background-color: gray; }
